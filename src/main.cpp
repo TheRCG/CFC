@@ -982,7 +982,7 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees)
 
     nRewardCoinYear = 5 * CENT;
 
-    int64_t nSubsidy = nCoinAge * 33 / (365 * 33 + 8) * nRewardCoinYear;
+    int64_t nSubsidy = nCoinAge * nRewardCoinYear / 365 / COIN;
 
 
     if (fDebug && GetBoolArg("-printcreation"))
