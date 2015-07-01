@@ -250,6 +250,19 @@
          </widget>
         </item>
         <item>
+         <widget class="QLabel" name="label_7">
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap resource="../coffeecoin.qrc">:/icons/coffeecoin_testnet</pixmap>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
          <spacer name="verticalSpacer">
           <property name="orientation">
            <enum>Qt::Vertical</enum>
@@ -354,6 +367,8 @@
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="../coffeecoin.qrc"/>
+ </resources>
  <connections/>
 </ui>
