@@ -315,16 +315,16 @@ void RPCConsole::clear()
     message(CMD_REPLY, (tr("Welcome to the Coffeecoin RPC console.") + "<br>" +
                         tr("Use up and down arrows to navigate history, and <b>Ctrl-L</b> to clear screen.") + "<br>" +
                         tr("Type <b>help</b> for an overview of available commands.") + "<br>" +
-                        "<tt>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; .___.<br>" +
-                        "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;/&nbsp; &nbsp; &nbsp;\\<br>" +
-                        "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |&nbsp;<b>O</b>&nbsp;<b>_</b>&nbsp;<b>O</b>&nbsp;|<br>" +
-                        "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>/&nbsp; \\_/&nbsp; \\</b><br>" +
-                        "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; .'&nbsp;/&nbsp; &nbsp; &nbsp;\\&nbsp;`.<br>" +
-                        "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;/&nbsp;_|&nbsp; &nbsp; &nbsp; &nbsp;|_&nbsp;\\<br>" +
-                        "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (_/&nbsp;|&nbsp; &nbsp; &nbsp; &nbsp;|&nbsp;\\_)<br>" +
-                        "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \\&nbsp; &nbsp; &nbsp; &nbsp;/<br>" +
-                        "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>__</b>\\_>-&lt;_/<b>__</b><br>" +
-                        "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>~;/&nbsp; &nbsp; &nbsp;\\;~</b><br></tt>"), true);
+                        "<tt>```````8¶¶¶8`````888¶¶¶¶¶¶8``````8¶¶¶8<br>" +
+                        "`````8¶¶¶¶¶¶¶````8¶¶¶¶¶¶¶¶¶````8¶¶¶¶¶¶¶<br>" +
+                        "````8¶¶¶`8¶`¶¶````¶¶¶8````¶```8¶¶¶`8¶`¶¶<br>" +
+                        "```¶¶C¶`````¶¶`````¶¶¶F``````¶¶C¶`````¶¶<br>" +
+                        "```¶¶¶¶````````````¶¶¶¶¶¶¶```¶¶¶¶<br>" +
+                        "```¶¶¶¶````````````¶¶¶¶¶¶¶```¶¶¶¶<br>" +
+                        "```¶¶¶¶8`````¶````8¶¶¶```````¶¶¶¶8`````¶<br>" +
+                        "```8¶¶¶¶¶```¶¶````¶¶¶¶```````8¶¶¶¶¶```¶¶<br>" +
+                        "````8¶¶¶¶¶¶¶¶8````¶¶¶¶8```````8¶¶¶¶¶¶¶¶8<br>" +
+                        "``````¶¶¶¶¶¶`````¶¶¶¶¶¶`````````¶¶¶¶¶¶<br></tt>"), true);
 }
 
 void RPCConsole::message(int category, const QString &message, bool html)
