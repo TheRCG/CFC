@@ -14,7 +14,7 @@ greaterThan(QT_MAJOR_VERSION, 4) {
     QT += widgets
     DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0
 }
-// Use your path to libraries, f.e. now is "C:/deps"
+# Use your path to libraries, f.e. now is "C:/deps"
 win32 { 
     BOOST_LIB_SUFFIX=-mgw49-mt-s-1_57
     BOOST_INCLUDE_PATH=C:/deps/boost_1_57_0
