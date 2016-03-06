@@ -8,11 +8,8 @@
 #include "protocol.h"
 #include "util.h"
 #include "sync.h"
-
-
 #include <map>
 #include <vector>
-
 #include <openssl/rand.h>
 
 
