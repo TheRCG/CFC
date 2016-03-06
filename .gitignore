@@ -3,14 +3,14 @@
 
 build/*
 
-icebergcoin-Qt.app/*
+coffeecoin-Qt.app/*
 
 
 src/obj/*
 src/obj/zerocoin/*
 *.qm
-qrc_icebergcoin.cpp
-icebergcoin-qt.pro.user
+qrc_coffeecoin.cpp
+coffeecoin-qt.pro.user
 
 *.tar.gz
 
@@ -18,12 +18,12 @@ icebergcoin-qt.pro.user
 *.zip
 *.Debug
 *.Release
-icebergcoin-qt_plugin_import.cpp
-src/icebergcoin
-src/icebergcoind
-src/icebergcoin-cli
-src/test/test_icebergcoin
-src/qt/test/test_icebergcoin-qt
+coffeecoin-qt_plugin_import.cpp
+src/coffeecoin
+src/coffeecoind
+src/coffeecoin-cli
+src/test/test_coffeecoin
+src/qt/test/test_coffeecoin-qt
 
 Makefile.in
 aclocal.m4
@@ -31,8 +31,8 @@ autom4te.cache/
 config.log
 config.status
 configure
-src/icebergcoin-config.h
-src/icebergcoin-config.h.in
+src/coffeecoin-config.h
+src/coffeecoin-config.h.in
 src/build-aux/
 src/stamp-h1
 share/setup.nsi
@@ -55,7 +55,7 @@ src/qt/test/moc*.cpp
 *.orig
 *.o
 *.patch
-.icebergcoin
+.coffeecoin
 *.a
 *.pb.cc
 *.pb.h
@@ -69,12 +69,12 @@ src/qt/test/moc*.cpp
 
 # Compilation and Qt preprocessor part
 *.qm
-icebergcoin-qt
-Icebergcoin-Qt.app
+coffeecoin-qt
+Coffeecoin-Qt.app
 
 # Unit-tests
 Makefile.test
-icebergcoin-qt_test
+coffeecoin-qt_test
 
 # Resources cpp
 qrc_*.cpp
@@ -89,7 +89,7 @@ build
 #lcov
 *.gcno
 /*.info
-test_icebergcoin.coverage/
+test_coffeecoin.coverage/
 total.coverage/
 coverage_percent.txt
 
@@ -97,7 +97,7 @@ coverage_percent.txt
 linux-coverage-build
 linux-build
 win32-build
-qa/pull-tester/run-icebergcoind-for-test.sh
+qa/pull-tester/run-coffeecoind-for-test.sh
 qa/pull-tester/build-tests.sh
 
 !src/leveldb*/Makefile
@@ -108,11 +108,11 @@ Thumbs.db
 *.tar.gz
 
 *.exe
-src/icebergcoin
-src/icebergcoind
-src/icebergcoin-cli
-src/test/test_icebergcoin
-src/qt/test/test_icebergcoin-qt
+src/coffeecoin
+src/coffeecoind
+src/coffeecoin-cli
+src/test/test_coffeecoin
+src/qt/test/test_coffeecoin-qt
 
 Makefile.in
 aclocal.m4
@@ -120,8 +120,8 @@ autom4te.cache/
 config.log
 config.status
 configure
-src/config/icebergcoin-config.h
-src/config/icebergcoin-config.h.in
+src/config/coffeecoin-config.h
+src/config/coffeecoin-config.h.in
 src/config/stamp-h1
 src/build-aux/
 share/setup.nsi
@@ -143,7 +143,7 @@ src/qt/test/moc*.cpp
 *.o
 *.o-*
 *.patch
-.icebergcoin
+.coffeecoin
 *.a
 *.pb.cc
 *.pb.h
@@ -157,12 +157,12 @@ src/qt/test/moc*.cpp
 
 # Compilation and Qt preprocessor part
 *.qm
-icebergcoin-qt
-Icebergcoin-Qt.app
+coffeecoin-qt
+Coffeecoin-Qt.app
 
 # Unit-tests
 Makefile.test
-icebergcoin-qt_test
+coffeecoin-qt_test
 
 # Resources cpp
 qrc_*.cpp
@@ -177,7 +177,7 @@ build
 #lcov
 *.gcno
 /*.info
-test_icebergcoin.coverage/
+test_coffeecoin.coverage/
 total.coverage/
 coverage_percent.txt
 
@@ -185,7 +185,7 @@ coverage_percent.txt
 linux-coverage-build
 linux-build
 win32-build
-qa/pull-tester/run-icebergcoind-for-test.sh
+qa/pull-tester/run-coffeecoind-for-test.sh
 qa/pull-tester/build-tests.sh
 
 !src/leveldb*/Makefile
