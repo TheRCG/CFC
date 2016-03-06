@@ -1,5 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2012 The Bitcoin developers
+// Copyright (c) 2009-2016 The Bitcoin developers
+// Copyright (c) 2014-2016 TheRCG developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -9,12 +10,9 @@
 #include "serialize.h"
 #include "uint256.h"
 #include "version.h"
-
 #include <openssl/bn.h>
-
 #include <stdexcept>
 #include <vector>
-
 #include <stdint.h>
 
 /** Errors thrown by the bignum class */
