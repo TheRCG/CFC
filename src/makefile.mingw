@@ -21,23 +21,25 @@ USE_UPNP:=-
 USE_IPV6:=1
 
 DEPSDIR?=/usr/local
-BOOST_SUFFIX?=-mgw48-mt-s-1_55
+BOOST_SUFFIX?=-mgw49-mt-s-1_57
+
+# Deps must be installed in dir, e.g. now C:\deps
 
 INCLUDEPATHS= \
  -I"$(CURDIR)" \
  -I"$(DEPSDIR)/include" \
- -I"c:/deps/boost_1_55_0" \
- -I"c:/deps/db-4.8.30.NC/build_unix" \
- -I"c:/deps/miniupnpc-1.8" \
- -I"c:/deps/openssl-1.0.1g/include"
+ -I"c:/deps/boost_1_57_0" \
+ -I"c:/deps/db-5.2.42.NC/build_unix" \
+ -I"c:/deps" \
+ -I"c:/deps/openssl-1.0.1p/include"
 
 LIBPATHS= \
  -L"$(CURDIR)/leveldb" \
  -L"$(DEPSDIR)/lib" \
- -L"c:/deps/boost_1_55_0/stage/lib" \
- -L"c:/deps/db-4.8.30.NC/build_unix" \
- -L"c:/deps/miniupnpc-1.8" \
- -L"c:/deps/openssl-1.0.1g"
+ -L"c:/deps/boost_1_57_0/stage/lib" \
+ -L"c:/deps/db-5.2.42.NC/build_unix" \
+ -L"c:/deps/miniupnpc-1.9" \
+ -L"c:/deps/openssl-1.0.1p"
 
 LIBS= \
  -l leveldb \
@@ -62,8 +64,8 @@ ifndef USE_UPNP
 	override USE_UPNP = -
 endif
 ifneq (${USE_UPNP}, -)
- INCLUDEPATHS += -I"C:\miniupnpc-1.6"
- LIBPATHS += -L"C:\miniupnpc-1.6"
+ INCLUDEPATHS += -I"C:\miniupnpc-1.9"
+ LIBPATHS += -L"C:\miniupnpc-1.9"
  LIBS += -l miniupnpc -l iphlpapi
  DEFS += -DSTATICLIB -DUSE_UPNP=$(USE_UPNP)
 endif
