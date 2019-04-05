@@ -1,7 +1,7 @@
 TEMPLATE = app
 TARGET = coffeecoin-qt
 macx:TARGET = "Coffeecoin-qt"
-VERSION = 1.0.6
+VERSION = 1.0.7
 INCLUDEPATH += src src/json src/qt
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE HAVE_CXX_STDHEADERS MINIUPNP_STATICLIB
 CONFIG += no_include_pwd
@@ -19,14 +19,14 @@ win32 {
     BOOST_LIB_SUFFIX=-mgw49-mt-s-1_57
     BOOST_INCLUDE_PATH=C:/deps/boost_1_57_0
     BOOST_LIB_PATH=C:/deps/boost_1_57_0/stage/lib
-    BDB_INCLUDE_PATH=C:/deps/db-4.8.30.NC/build_unix
-    BDB_LIB_PATH=C:/deps/db-4.8.30.NC/build_unix
-    OPENSSL_INCLUDE_PATH=C:/deps/openssl-1.0.1g/include
-    OPENSSL_LIB_PATH=C:/deps/openssl-1.0.1q
+    BDB_INCLUDE_PATH=C:/deps/db-5.2.42.NC/build_unix
+    BDB_LIB_PATH=C:/deps/db-5.2.42.NC/build_unix
+    OPENSSL_INCLUDE_PATH=C:/deps/openssl-1.0.1p/include
+    OPENSSL_LIB_PATH=C:/deps/openssl-1.0.1p
     MINIUPNPC_INCLUDE_PATH=C:/deps/
     MINIUPNPC_LIB_PATH=C:/deps/miniupnpc
-    QRENCODE_INCLUDE_PATH=C:/deps/qrencode-3.4.3
-    QRENCODE_LIB_PATH=C:/deps/qrencode-3.4.3/.libs
+    QRENCODE_INCLUDE_PATH=C:/deps/qrencode-3.4.4
+    QRENCODE_LIB_PATH=C:/deps/qrencode-3.4.4/.libs
 }
 
 
