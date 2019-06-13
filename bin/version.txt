@@ -1,0 +1,2 @@
+For Win use Coffeecoin.exe or Coffeecoind.exe
+For linux use coffeecoin-qt or coffeecoind
